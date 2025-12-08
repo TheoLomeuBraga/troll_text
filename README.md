@@ -2,7 +2,7 @@
 
 It is a command-line tool 
 to facilitate the creation or replication 
-of the write mode of Homestucks trolls
+of the write method of Homestucks trolls
 
 # how use ?
 arg 1 is for the key replacement file
