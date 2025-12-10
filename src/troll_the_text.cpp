@@ -7,7 +7,6 @@
 #include <sstream>
 
 std::map<wchar_t,std::wstring> load_trool_alphabet(const std::string &path){
-    
 
     std::wifstream file(path);
 
@@ -16,10 +15,9 @@ std::map<wchar_t,std::wstring> load_trool_alphabet(const std::string &path){
     if (!file.is_open()){return {};}
 
     std::vector<std::wstring> tokens = {};
-
-    std::wstring line;
     std::wstring token;
-    
+    std::wstring line;
+
     while(std::getline(file, line)){
         std::wstringstream streamer(line);
         while(std::getline(streamer, token,L' ')){

@@ -1,4 +1,3 @@
-#include <iostream>
 #include <locale>
 #include <codecvt>
 #include "troll_the_text.h"
